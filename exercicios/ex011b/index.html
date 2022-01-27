@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de dimensionamento automático</title>
+</head>
+<body>
+    <h1>Testando imagem</h1>
+    <p>Destá vez, uma imagem aleatória, da <strong>Lala</strong></p>
+    <picture>
+        <source media="(max-width: 150px)" srcset="imagens/lala-200.jpg" type="image/jpg">
+        <source media="(max-width: 200px)" srcset="imagens/lala-300.jpg" type="image/jpg">
+        <source media="(max-width: 450px)" srcset="imagens/lala-400.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/lala-700.jpg" type="image/jpg">
+        <img src="imagens/lala-1000.jpg" alt="imagem flexivel">
+    </picture>
+</body>
+</html>

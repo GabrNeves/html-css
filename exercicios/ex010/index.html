@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://github.com/GabrNeves" target="_blank" rel="external">repositório público no GitHub</a>.</p>
+    <p>Você também pode acessar <a href="https://www.facebook.com/gabriel.neves.1800/" target="_blank" rel="external">qualquer outro site</a>, apenas adicionando a ancora &lt;a&gt;.</p>
+    <h1>Usando Links Internos</h2>
+    <p>Está é a minha primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next">segunda página.</a></p> <!--Importante indicar rel="next", quando o próximo site for da sua própria página ou rel="prev", para voltar a sua própria página-->
+    <p>Está pagina é um oferecimento de <a href="www.papagaiosa.com.br/xurupita" rel="nofollow">Industria Papagaio</a></p> <!--nofollow indica para mecanismo de busca não extender consulta para a página de terceiros ((não da aval))-->
+    <br><br>
+    <p><a href="noticia/pag003.html" rel="next">Página de noticias</a></p>
+    <br><br>
+    <hr>
+    <h1>Link para download</h1>
+    <ul>
+        <li><a href="livro/10 - Ligações em toda parte.rar" download="10 - Ligações em toda parte.rar" type="application/rar">Baixar livro</a></li> <!--fiz sem a parte download="" e type="" e funcionou, mesmo o professor falando que não funciona-->
+        <li><a href="#">Baixar zip</a></li>
+    </ul>
+</body>
+</html>
